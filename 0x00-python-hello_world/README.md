@@ -18,9 +18,4 @@
 
 
 
-
-
-0-run             101-compile               4-print_float.py   8-concat_edges.py
-1-run_inline      102-magic_calculation.py  5-print_string.py  9-easteir_egg.py  
-10-check_cycle.c  2-print.py                6-concat.py        README.md        
-100-write.py      3-print_number.py         7-edges.py         lists.h
+In these tasks, we were asked to work on small project of C, python and bash. It was also an introductory section to programing in python. We learnt how, to code, compile and run code in python. 

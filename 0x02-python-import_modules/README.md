@@ -11,9 +11,7 @@
 * 101-easy_print.py
 * 102-magic_calculation.py
 * 103-fast_alphabet.py
-* README.md
 * commit
-* hidden_4.pyc
 
 - Please not that comment: Commit is a bash file that will chome all files.
 

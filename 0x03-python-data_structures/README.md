@@ -1,7 +1,7 @@
 ## 0x03-python-data_structures
 ### --- Table of content
 
-** Python Projects
+** Python Projects **
 * 0-print_list_integer.py
 * 1-element_at.py
 * 2-replace_in_list.py
@@ -16,7 +16,7 @@
 * 11-delete_at.py
 * 12-switch.py
 
-** C Projects
+** C Projects **
 * 13-is_palindrome.c
 * 100-print_python_list_info.c
 * lists.h

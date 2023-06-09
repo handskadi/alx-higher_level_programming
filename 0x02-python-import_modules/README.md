@@ -16,4 +16,5 @@
 * hidden_4.pyc
 
 - Please not that comment: Commit is a bash file that will chome all files.
+
 In these tasks, we were asked to work on small project of python, namely Modules and Import function, we were also introduced to passing arguments and defining option for scripts with args options.

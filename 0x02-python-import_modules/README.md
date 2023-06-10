@@ -21,6 +21,7 @@ This repository contains a collection of small Python projects focused on module
 The purpose of this project is to provide hands-on practice with modules and the import function in Python. Each task focuses on a specific topic related to module usage and explores different functionalities. The project also introduces passing arguments and defining options for scripts using args options.
 
 These tasks were completed by Mohamed KADI, a software engineering student at ALX Cohort-13.
+* The commit file is a bash script that will "chmod" all files.
 
 ## Usage
 
@@ -37,9 +38,6 @@ To use any of the code in this repository, follow these steps:
    ```bash
    cd alx-higher_level_programming.git/0x02-python-import_modules/
    ```
-
-## Commit
-The commit file is a bash script that will "chmod" all files.
 
 ## Contributing
 Contributions to this project are welcome. If you find any issues or would like to add new features or tasks, please feel free to submit a pull request. When contributing, please ensure that you follow the existing coding style and include relevant documentation and test cases.

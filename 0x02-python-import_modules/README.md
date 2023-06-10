@@ -36,7 +36,11 @@ To use any of the code in this repository, follow these steps:
 
    ```bash
    cd alx-higher_level_programming.git/0x02-python-import_modules/
-     ```
+   ```
+
+## Commit
+The commit file is a bash script that will "chmod" all files.
+
 ## Contributing
 Contributions to this project are welcome. If you find any issues or would like to add new features or tasks, please feel free to submit a pull request. When contributing, please ensure that you follow the existing coding style and include relevant documentation and test cases.
 

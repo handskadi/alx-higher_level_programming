@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Define a func that returns a new dictionary with all values muoltiplied by two
+# Define a func that returns a new dict with all values * 2
 
 
 def multiply_by_2(a_dictionary):

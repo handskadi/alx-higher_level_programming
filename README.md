@@ -8,6 +8,7 @@ Welcome to the ALX Higher Level Programming repository! This repository contains
 * [2- Python If Else Loops Functions](#2-python-if-else-loops-functions)
 * [3- Python Import Modules](#3-python-import-modules)
 * [4- Python Data Structures](#4-python-data-structures)
+* [5- Python More Data Structures](#5-python-more-data-structures)
 
 ## 1- Python Hello World
 
@@ -24,6 +25,10 @@ The "3- Python Import Modules" directory contains a collection of small projects
 ## 4- Python Data Structures
 
 The "4- Python Data Structures" directory contains a collection of small projects focused on data structures and lists in Python. These tasks cover various types of data structures, such as tuples, lists, sets, and dictionaries. They provide practice in manipulating data in these list types.
+
+## 5- Python More Data Structures
+
+The "5- Python More Data Structures" directory contains a collection of small projects focused on more data structures and lists in Python. These tasks cover additional types of data structures and provide further practice in manipulating data in these list types.
 
 ## Contributing
 

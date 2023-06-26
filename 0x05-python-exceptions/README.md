@@ -41,7 +41,7 @@ To use any of the code in this repository, follow these steps:
 2. Navigate to the specific task directory:
 
    ```bash
-   cd alx-higher_level_programming.git/0x05-python-exceptions//
+   cd alx-higher_level_programming/0x05-python-exceptions/
     ```
 ## Contributing
 Contributions to this project are welcome. If you find any issues or would like to add new features or tasks, please feel free to submit a pull request. When contributing, please ensure that you follow the existing coding style and include relevant documentation and test cases.

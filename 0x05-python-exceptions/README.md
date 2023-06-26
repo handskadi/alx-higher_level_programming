@@ -1,4 +1,4 @@
-# 0x00-python-hello_world
+# 0x05-python-exceptions
 
 This repository contains a collection of small projects in Python related to exception handling. It includes both mandatory and advanced tasks.
 

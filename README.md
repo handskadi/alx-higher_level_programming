@@ -9,6 +9,7 @@ Welcome to the ALX Higher Level Programming repository! This repository contains
 * [3- Python Import Modules](#3-python-import-modules)
 * [4- Python Data Structures](#4-python-data-structures)
 * [5- Python More Data Structures](#5-python-more-data-structures)
+* [6- Python Exceptions](6#python-exceptions)
 
 ## 1- Python Hello World
 
@@ -29,6 +30,10 @@ The "4- Python Data Structures" directory contains a collection of small project
 ## 5- Python More Data Structures
 
 The "5- Python More Data Structures" directory contains a collection of small projects focused on more data structures and lists in Python. These tasks cover additional types of data structures and provide further practice in manipulating data in these list types.
+
+## 6- Python Exeptions
+
+The "6- Python Exceptions" directory contains a collection of small projects focused on error handling and exceptions in Python. These tasks cover various aspects of error handling, including handling specific exceptions, raising exceptions, and handling errors with custom messages.
 
 ## Contributing
 

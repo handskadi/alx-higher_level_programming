@@ -4,7 +4,7 @@
 
 class Rectangle:
     """ Represents a recangle """
-    
+
     def __init__(self, width, height):
         """ Init a new rectangle """
 
@@ -19,7 +19,7 @@ class Rectangle:
     @width.setter
     def width(self, value):
         if not instance(value, int):
-            raise TypeError("with myst be integer")
+            raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
         self.__width = value
@@ -27,12 +27,7 @@ class Rectangle:
     @property
     def height(self, value):
         if not isinstance(value, int):
-            raise TypeError("Height must be an integer")
+            raise TypeError("height must be an integer")
         if value < 0:
-            raise ValueError("Height nust be >= 0")
+            raise ValueError("height must be >= 0")
         self.__height = value
-
-
-
-
-

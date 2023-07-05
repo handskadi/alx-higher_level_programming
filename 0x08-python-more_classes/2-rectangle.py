@@ -41,7 +41,7 @@ class Rectangle:
         """ rectangle area """
         return self.__wdith * self.__height
 
-    def peimeter(self):
+    def perimeter(self):
         """ rectangle perimiter """
         if self.__width is 0 or self.__height is 0:
             return 0

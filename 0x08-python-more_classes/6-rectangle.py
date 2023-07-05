@@ -4,10 +4,13 @@
 
 class Rectangle:
     """ Represents a recangle """
+    number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """ Init a new rectangle """
         self.width = width
         self.height = height
+        type(self).number_of_instances += 1
 
     @property
     def width(self):

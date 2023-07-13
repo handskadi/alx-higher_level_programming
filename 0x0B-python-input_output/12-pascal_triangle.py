@@ -3,17 +3,19 @@
 
 
 def pascal_triangle(n):
-    """Represent Pascal's Triangle of size n."""
+    """ Represent Pascal's Triangle of size n."""
 
-    if n <= 0:
-        return []
+    if n <= 1:
+        my_list = []
+        return my_list
+    else:
+        list_i = [[1]]
+        for i in range(n - 1):
+            temp = [0] + list_i[-1] + [0]
 
-    triangles = [[1]]
-    while len(triangles) != n:
-        tri = triangles[-1]
-        tmp = [1]
-        for i in range(len(tri) - 1):
-            tmp.append(tri[i] + tri[i + 1])
-            tmp.append(1)
-            triangles.append(tmp)
-        return triangles
+            row = []
+
+            for j in range(len(list_i[-1]) + 1):
+                row.append(temp[j] + temp[j+1])
+            list_i.append(row)
+        return list_i

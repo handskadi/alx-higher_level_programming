@@ -1,4 +1,4 @@
-#!/usr/bin/nod
+#!/usr/bin/node
 const argc = process.argv.length;
 
 if (argc > 2) {

@@ -27,11 +27,11 @@ if __name__ == '__main__':
                 states.name LIKE BINARY %(state_name)s
             ORDER BY
                 cities.id ASC
-                                                                                                                                            """, {
-                                                                                                                                                'state_name': argv[4]
-                                                                                                                                            })
+        """, {
+            'state_name': argv[4]
+            })
 
         query_rows = cur.fetchall()
-    
+
     if query_rows is not None:
         print(", ".join([row[1] for row in query_rows]))

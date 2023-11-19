@@ -23,13 +23,9 @@ if __name__ == '__main__':
 
     # Selecting Data using cursor
     cur = conn.cursor()
-    cur.execute("SELECT * FROM states ORDER BY id ASC")
+    cur.execute("SELECT * FROM states")
 
     # Print Data
     query_rows = cur.fetchall()
     for row in query_rows:
         print(row)
-
-    # Close connection
-    cur.close()
-    conn.close()

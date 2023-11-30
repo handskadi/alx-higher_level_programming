@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-""" Finds Peak in a the list 
+""" Finds Peak in a the list
 """
 
 
 def find_peak(list_of_integers):
     """
     Args:
-        list_of_integers(int): list 
+        list_of_integers(int): list
     Returns: peak of list
     """
     if not list_of_integers:
@@ -21,4 +21,3 @@ def find_peak(list_of_integers):
         else:
             low = mid + 1
     return list_of_integers[low]
-

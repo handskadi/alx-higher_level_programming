@@ -1,0 +1,13 @@
+0: curl -s 0.0.0.0:5000/route_1 | wc -c
+1: curl -sL 0.0.0.0:5000/route_1 ; echo ""
+2: curl -sX DELETE 0.0.0.0:5000/route_3 ; echo ""
+3: curl -sI 0.0.0.0:5000/route_4 | grep "Allow" | cut -d " " -f 2-
+4: curl -sH "X-School-User-Id: 98" 0.0.0.0:5000/route_5 ; echo ""
+5: curl -s -X POST -d "email=test@gmail.com&subject=I will always be here for PLD" 0.0.0.0:5000/route_6 ; echo ""
+
+100: curl -s -o /dev/null -w "%{http_code}" 0.0.0.0:5000 ; echo ""
+     curl -s -o /dev/null -w "%{http_code}" 0.0.0.0:5000/nop ; echo ""
+101:
+     curl -s -H "Content-Type: application/json" -d "$(cat my_json_0 )" 0.0.0.0:5000/route_json ; echo ""
+     curl -s -H "Content-Type: application/json" -d "$(cat my_json_1 )" 0.0.0.0:5000/route_json ; echo ""
+     curl -s -H "Content-Type: application/json" -d "$(cat my_json_2 )" 0.0.0.0:5000/route_json ; echo ""
